@@ -50,6 +50,7 @@
             <&kp LEFT_ARROW>,
             <&kp UP_ARROW>,
             <&kp DOWN_ARROW>;
+
         tick = <10>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -66,7 +67,7 @@
         };
 
         zenkakuhankaku {
-            bindings = <&kp JP_HANZEN>;
+            bindings = <&kp LANG1>;
             key-positions = <1 0>;
         };
 
@@ -80,9 +81,9 @@
             key-positions = <16 28>;
         };
 
-        test {
-            bindings = <&kt A>;
-            key-positions = <6 18 19 20 8>;
+        LANG {
+            bindings = <&kp LANG2>;
+            key-positions = <1 2>;
         };
     };
 
