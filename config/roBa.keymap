@@ -12,6 +12,7 @@
 / {
     behaviors {
         // Keep the original key_press behavior for ZMK core components
+
         original_key_press: original_key_press {
             compatible = "zmk,behavior-key-press";
             #binding-cells = <1>;
@@ -19,6 +20,7 @@
         };
 
         // Override the existing &kp behavior to use our custom implementation
+
         kp: key_press {
             compatible = "zmk,behavior-layout-shift-key-press";
             #binding-cells = <1>;
@@ -118,7 +120,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                             &kp T                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                             &kp G        &kp LS(LG(S))                         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                             &kp B        &kp SLASH                             &kp EQUAL      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                             &kp B        &kp PIPE                              &kp EQUAL      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INTERNATIONAL_4  &lt 2 SPACE  &lt_to_layer_0 3 INTERNATIONAL_5      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
@@ -127,10 +129,10 @@
 
         FUNCTION {
             bindings = <
-&kp JP_HANZEN  &kp JP_PIPE  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans         &trans       &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans         &trans       &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans         &trans       &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp JP_HANZEN          &kp JP_PIPE  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp GRAVE              &trans       &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp RIGHT_PARENTHESIS  &trans       &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&kp DOLLAR             &trans       &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
             >;
         };
 
