@@ -85,6 +85,11 @@
             bindings = <&kp LANG2>;
             key-positions = <1 2>;
         };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <19 19 20>;
+        };
     };
 
     macros {
