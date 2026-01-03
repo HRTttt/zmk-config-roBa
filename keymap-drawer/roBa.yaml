@@ -16,14 +16,14 @@ layers:
   - D
   - F
   - G
-  - Sft+Gui+S
+  - MUTE
   - '-'
   - H
   - J
   - K
   - L
   - ;
-  - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
@@ -34,13 +34,13 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: RIGHT SHIFT}
+  - /
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 INTERNATIONAL_4', h: Symbol}
+  - {t: '&to_layer_0 INTERNATIONAL_5', h: Symbol}
   - {t: SPACE, h: Number}
-  - {t: '&to_layer_0 INTERNATIONAL_5', h: Arrow}
+  - {t: '&to_layer_0 INTERNATIONAL_4', h: Arrow}
   - BACKSPACE
   - {t: ENTER, h: Symbol}
   - DEL
@@ -72,7 +72,7 @@ layers:
   - {t: ▽, type: trans}
   - '{'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Gui+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '}'
@@ -90,32 +90,32 @@ layers:
   - _
   Number:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F10
   - '-'
   - '7'
   - '8'
   - '9'
   - SPACE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F4
+  - F5
+  - F6
+  - F11
   - {t: ▽, type: trans}
   - /
   - +
   - '4'
   - '5'
   - '6'
-  - RET
+  - ENTER
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F12
   - {t: ▽, type: trans}
   - '*'
   - DEL
@@ -312,10 +312,16 @@ combos:
 - p: [11, 10]
   k: TAB
 - p: [1, 0]
-  k: '`'
+  k: LANG1
 - p: [22, 23]
-  k: CAPS
+  k: LEFT SHIFT
 - p: [16, 28]
   k: {t: Number, h: toggle}
-- p: [6, 18, 19, 20, 8]
-  k: {t: A, h: toggle}
+- p: [1, 2]
+  k: LANG2
+- p: [19, 20]
+  k: '-'
+- p: [32, 33]
+  k: RIGHT SHIFT
+- p: [23, 22, 10]
+  k: CAPSLOCK
