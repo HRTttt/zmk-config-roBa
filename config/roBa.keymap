@@ -115,7 +115,7 @@
 &kp Q             &kp W         &kp E         &kp R                             &kp T                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                             &kp G        &kp LS(LG(S))                         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                             &kp B        &lt_to_layer_0 6 DOUBLE_QUOTES        &kp EQUAL      &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INTERNATIONAL_4  &lt 2 SPACE  &lt_to_layer_0 3 INTERNATIONAL_5      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INTERNATIONAL_5  &lt 2 SPACE  &lt_to_layer_0 3 INTERNATIONAL_4      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -133,7 +133,7 @@
         Number {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                           &kp MINUS  &kp N7        &kp N8  &kp N9  &kp SPACE
-&trans  &trans  &trans  &trans  &trans     &trans      &kp FSLH  &kp PLUS   &kp N4        &kp N5  &kp N6  &kp RET
+&trans  &trans  &trans  &trans  &trans     &trans      &kp FSLH  &kp PLUS   &kp N4        &kp N5  &kp N6  &kp ENTER
 &trans  &trans  &trans  &trans  &trans     &trans      &kp STAR  &kp DEL    &kp NUMBER_1  &kp N2  &kp N3  &kp UNDERSCORE
 &trans  &trans  &trans  &trans  &kp SPACE  &trans      &kp BSPC  &kp N0                                   &to 0
             >;
