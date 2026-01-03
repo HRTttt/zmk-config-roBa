@@ -128,20 +128,20 @@
         default_layer {
             bindings = <
 &kp Q      &kp W         &kp E         &kp R                             &kp T                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F                             &kp G        &kp LS(LG(S))                         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp A      &kp S         &kp D         &kp F                             &kp G        &kp K_MUTE                            &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
 &kp Z      &kp X         &kp C         &kp V                             &kp B        &lt_to_layer_0 6 DOUBLE_QUOTES        &kp EQUAL      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INTERNATIONAL_5  &lt 2 SPACE  &lt_to_layer_0 3 INTERNATIONAL_4      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         Symbol {
             bindings = <
-&kp EXCL   &kp DOUBLE_QUOTES  &kp POUND  &kp DOLLAR            &kp PERCENT                           &kp AMPERSAND      &kp APOSTROPHE         &kp TILDE  &kp CARET  &kp PIPE
-&kp ESC    &kp TAB            &trans     &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &trans      &trans  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp ASTRK  &kp AT     &kp PERCENT
-&kp LSHFT  &kp CAPS           &trans     &kp LEFT_BRACE        &trans            &trans      &trans  &trans             &kp RIGHT_BRACE        &kp PLUS   &kp FSLH   &kp BACKSLASH
-&kp LCTRL  &kp LGUI           &kp LALT   &trans                &trans            &trans      &trans  &trans                                                          &kp UNDER
+&kp EXCL   &kp DOUBLE_QUOTES  &kp POUND  &kp DOLLAR            &kp PERCENT                                  &kp AMPERSAND      &kp APOSTROPHE         &kp TILDE  &kp CARET  &kp PIPE
+&kp ESC    &kp TAB            &trans     &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &trans             &trans  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp ASTRK  &kp AT     &kp PERCENT
+&kp LSHFT  &kp CAPS           &trans     &kp LEFT_BRACE        &trans            &kp LS(LG(S))      &trans  &trans             &kp RIGHT_BRACE        &kp PLUS   &kp FSLH   &kp BACKSLASH
+&kp LCTRL  &kp LGUI           &kp LALT   &trans                &trans            &trans             &trans  &trans                                                          &kp UNDER
             >;
         };
 
