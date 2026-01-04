@@ -143,11 +143,13 @@
 
         Symbol {
             bindings = <
-&kp EXCL   &kp DOUBLE_QUOTES  &kp POUND  &kp DOLLAR            &kp PERCENT                                         &kp AMPERSAND      &kp APOSTROPHE         &kp TILDE  &kp CARET  &kp PIPE
-&kp ESC    &kp TAB            &trans     &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &trans             &trans         &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp ASTRK  &kp AT     &kp PERCENT
-&kp LSHFT  &kp CAPS           &trans     &kp LEFT_BRACE        &trans            &kp LS(LG(S))      &kp LS(LC(V))  &trans             &kp RIGHT_BRACE        &kp PLUS   &kp FSLH   &kp BACKSLASH
-&kp LCTRL  &kp LGUI           &kp LALT   &trans                &trans            &trans             &trans         &trans                                                          &kp UNDER
+&kp EXCL   &kp DOUBLE_QUOTES  &kp POUND  &kp DOLLAR            &kp PERCENT                                            &kp AMPERSAND      &kp APOSTROPHE         &kp TILDE  &kp CARET  &kp PIPE
+&kp ESC    &kp TAB            &trans     &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LC(NUMBER_0)      &trans         &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp ASTRK  &kp AT     &kp PERCENT
+&kp LSHFT  &kp CAPS           &trans     &kp LEFT_BRACE        &trans            &kp LS(LG(S))         &kp LS(LC(V))  &trans             &kp RIGHT_BRACE        &kp PLUS   &kp FSLH   &kp BACKSLASH
+&kp LCTRL  &kp LGUI           &kp LALT   &trans                &trans            &trans                &trans         &trans                                                          &kp UNDER
             >;
+
+            sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
         };
 
         Number {
