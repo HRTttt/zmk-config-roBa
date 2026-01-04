@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - {t: I, h: Scroll}
+  - I
   - O
   - P
   - A
@@ -32,17 +32,17 @@ layers:
   - '='
   - N
   - M
-  - ','
+  - {t: ',', h: Scroll}
   - .
   - /
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 INTERNATIONAL_5', h: Symbol}
+  - {t: '&to_layer_0 TAB', h: Symbol}
   - {t: SPACE, h: Number}
-  - {t: '&to_layer_0 INTERNATIONAL_4', h: Arrow}
+  - LEFT SHIFT
   - BACKSPACE
-  - {t: ENTER, h: Symbol}
+  - {t: ENTER, h: Arrow}
   - DEL
   Symbol:
   - '!'
@@ -73,7 +73,7 @@ layers:
   - '{'
   - {t: ▽, type: trans}
   - Sft+Gui+S
-  - {t: ▽, type: trans}
+  - Sft+Ctl+V
   - {t: ▽, type: trans}
   - '}'
   - +
@@ -172,9 +172,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Mouse:
   - {t: ▽, type: trans}
@@ -188,9 +188,9 @@ layers:
   - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -228,31 +228,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -324,4 +324,6 @@ combos:
 - p: [32, 33]
   k: RIGHT SHIFT
 - p: [23, 22, 10]
-  k: CAPSLOCK
+  k: Sft+CAPSLOCK
+- p: [11, 13, 12]
+  k: Mouse
