@@ -61,11 +61,6 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 10>;
-        };
-
         japanese {
             bindings = <&kp LANG1>;
             key-positions = <1 0>;
@@ -78,7 +73,7 @@
 
         to_number {
             bindings = <&to 2>;
-            key-positions = <16 28>;
+            key-positions = <33 42>;
         };
 
         eng {
@@ -98,12 +93,12 @@
 
         capslock {
             bindings = <&kp LS(CAPSLOCK)>;
-            key-positions = <23 22 10>;
+            key-positions = <10 11>;
         };
 
         mouse_on {
             bindings = <&mo 4>;
-            key-positions = <11 13 12>;
+            key-positions = <11 12>;
         };
     };
 
@@ -144,7 +139,7 @@
         Symbol {
             bindings = <
 &kp EXCL   &kp DOUBLE_QUOTES  &kp POUND  &kp DOLLAR            &kp PERCENT                                            &kp AMPERSAND      &kp APOSTROPHE         &kp TILDE  &kp CARET  &kp PIPE
-&kp ESC    &kp TAB            &trans     &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LC(NUMBER_0)      &trans         &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp ASTRK  &kp AT     &kp PERCENT
+&kp ESC    &kp TAB            &trans     &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LC(NUMBER_0)      &kp GRAVE      &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp ASTRK  &kp AT     &kp PERCENT
 &kp LSHFT  &kp CAPS           &trans     &kp LEFT_BRACE        &trans            &kp LS(LG(S))         &kp LS(LC(V))  &trans             &kp RIGHT_BRACE        &kp PLUS   &kp FSLH   &kp BACKSLASH
 &kp LCTRL  &kp LGUI           &kp LALT   &trans                &trans            &trans                &trans         &trans                                                          &kp UNDER
             >;
@@ -154,19 +149,19 @@
 
         Number {
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4     &kp N5                              &kp N6     &kp N7  &kp N8  &kp N9  &kp N0
-&kp F6  &kp F7  &kp F8  &kp F9     &kp F10    &kp F11        &kp FSLH  &kp MINUS  &kp N4  &kp N5  &kp N6  &kp ENTER
-&kp F1  &kp F2  &kp F3  &kp F4     &kp F5     &kp F12        &kp STAR  &kp PLUS   &kp N1  &kp N2  &kp N3  &kp UNDERSCORE
-&trans  &trans  &trans  &kp SPACE  &kp SPACE  &kp SPACE      &kp BSPC  &kp N0                             &to 0
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                          &kp N6     &kp N7  &kp N8  &kp N9  &kp N0
+&kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11      &kp FSLH  &kp MINUS  &kp N4  &kp N5  &kp N6  &kp ENTER
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &kp F12      &kp STAR  &kp PLUS   &kp N1  &kp N2  &kp N3  &kp UNDERSCORE
+&trans  &trans  &trans  &trans  &trans   &trans       &kp BSPC  &kp N0                             &to 0
             >;
         };
 
         Arrow {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans   &kp LC(LS(TAB))   &kp UP    &kp LC(TAB)        &kp ESC
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp END  &kp LEFT          &kp DOWN  &kp RIGHT          &kp HOME
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans   &kp LG(LS(LEFT))  &trans    &kp RS(LG(RIGHT))  &kp RSHFT
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                  &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW      &kp LC(TAB)              &trans                       &trans   &kp LC(LS(TAB))   &kp UP            &kp LC(TAB)        &kp ESC
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW    &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp END  &kp LEFT          &kp DOWN          &kp RIGHT          &kp HOME
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp LG(UP_ARROW)  &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans   &kp LG(LS(LEFT))  &kp LG(UP_ARROW)  &kp RS(LG(RIGHT))  &kp RSHFT
+&trans          &trans                  &trans            &trans                   &trans   &trans      &trans  &trans                                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
