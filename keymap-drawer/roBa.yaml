@@ -60,8 +60,8 @@ layers:
   - {t: ▽, type: trans}
   - (
   - '['
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+0
+  - '`'
   - ']'
   - )
   - '*'
@@ -89,36 +89,36 @@ layers:
   - {t: ▽, type: trans}
   - _
   Number:
-  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - F6
   - F7
   - F8
   - F9
   - F10
-  - '-'
-  - '7'
-  - '8'
-  - '9'
-  - SPACE
-  - {t: ▽, type: trans}
-  - F4
-  - F5
-  - F6
   - F11
-  - {t: ▽, type: trans}
   - /
-  - +
+  - '-'
   - '4'
   - '5'
   - '6'
   - ENTER
-  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
+  - F4
+  - F5
   - F12
-  - {t: ▽, type: trans}
   - '*'
-  - DEL
+  - +
   - '1'
   - '2'
   - '3'
@@ -127,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SPACE, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - BSPC
   - '0'
@@ -157,14 +157,14 @@ layers:
   - HOME
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
-  - {t: ▽, type: trans}
+  - Gui+UP ARROW
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+Sft+LEFT
-  - {t: ▽, type: trans}
+  - Gui+UP ARROW
   - Sft+Gui+RIGHT
   - RSHFT
   - {t: ▽, type: trans}
@@ -190,7 +190,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -309,13 +309,11 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
-- p: [11, 10]
-  k: TAB
 - p: [1, 0]
   k: LANG1
 - p: [22, 23]
   k: LEFT SHIFT
-- p: [16, 28]
+- p: [33, 42]
   k: {t: Number, h: toggle}
 - p: [1, 2]
   k: LANG2
@@ -323,7 +321,7 @@ combos:
   k: '-'
 - p: [32, 33]
   k: RIGHT SHIFT
-- p: [23, 22, 10]
+- p: [10, 11]
   k: Sft+CAPSLOCK
-- p: [11, 13, 12]
+- p: [11, 12]
   k: Mouse
