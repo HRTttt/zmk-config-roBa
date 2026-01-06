@@ -71,11 +71,6 @@
             key-positions = <22 23>;
         };
 
-        to_number {
-            bindings = <&to 2>;
-            key-positions = <33 42>;
-        };
-
         eng {
             bindings = <&kp LANG2>;
             key-positions = <1 2>;
@@ -128,8 +123,8 @@
         default_layer {
             bindings = <
 &kp Q      &kp W         &kp E         &kp R                 &kp T                                                           &kp Y        &kp U  &kp I        &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F                 &kp G        &kp C_MUTE                          &kp MINUS      &kp H        &kp J  &kp K        &kp L    &kp SEMICOLON
-&kp Z      &kp X         &kp C         &kp V                 &kp B        &lt_to_layer_0 6 DOUBLE_QUOTES      &kp EQUAL      &kp N        &kp M  &lt 5 COMMA  &kp DOT  &kp SLASH
+&kp A      &kp S         &kp D         &kp F                 &kp G        &kp C_MUTE                          &kp UNDER      &kp H        &kp J  &kp K        &kp L    &lt 3 SEMICOLON
+&kp Z      &kp X         &kp C         &kp V                 &kp B        &lt_to_layer_0 6 DOUBLE_QUOTES      &kp APOS       &kp N        &kp M  &lt 5 COMMA  &kp DOT  &kp SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 TAB  &lt 2 SPACE  &kp LEFT_SHIFT                      &kp BACKSPACE  &lt 3 ENTER                               &kp DEL
             >;
 
