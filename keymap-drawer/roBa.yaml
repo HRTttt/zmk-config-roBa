@@ -17,19 +17,19 @@ layers:
   - F
   - G
   - MUTE
-  - '-'
+  - _
   - H
   - J
   - K
   - L
-  - ;
+  - {t: ;, h: Arrow}
   - Z
   - X
   - C
   - V
   - B
   - {t: '&to_layer_0 DOUBLE_QUOTES', h: Bluetooth}
-  - '='
+  - ''''
   - N
   - M
   - {t: ',', h: Scroll}
@@ -154,7 +154,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - HOME
+  - {t: HOME, type: held}
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
   - Gui+UP ARROW
@@ -174,7 +174,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Mouse:
   - {t: ▽, type: trans}
@@ -313,8 +313,6 @@ combos:
   k: LANG1
 - p: [22, 23]
   k: LEFT SHIFT
-- p: [33, 42]
-  k: {t: Number, h: toggle}
 - p: [1, 2]
   k: LANG2
 - p: [19, 20]
